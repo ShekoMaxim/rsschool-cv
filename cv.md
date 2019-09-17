@@ -1,5 +1,5 @@
 ## Frontend Developer Resume
-![My avatar](./Maksim_Sheka.jpg) | Maksim Sheka  
+<img width="180px" src="./Maksim_Sheka.jpg" alt="avatar"> | Maksim Sheka  
 ------------ | -------------  
 **Contact Info** | Mobile : +375 44 504 53 43; <br>Mail: [sheko.maxim@gmail.com](mailto:sheko.maxim@gmail.com) <br>GitHub: [link](https://github.com/ShekoMaxim)<br>Linkedin: [link](https://www.linkedin.com/in/maxim-sheko-61926bb6/)
 
