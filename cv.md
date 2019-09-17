@@ -45,3 +45,38 @@ Simple react component
      </DialogActions> </div> </Dialog>  );  
       }  
     }
+    
+## Experience
+**Altoros Development** Front-end Developer  April,2018 - Current
+
+ -   Executes full-stack website launches specializing in front-end features, browser manipulation, and cross-browser compatibility.
+ -   Coordinated a small team;
+ -   Developed the advertising platform : [https://platform.aqer.tech/](https://platform.aqer.tech/);
+ -   Developed a vendor app for iOS/Android with React + Apache Cordova;
+ -   Refactored an old-school user interface into a one above industry standard;
+ -   Converting code from angular to react [https://learn.funler.com](https://learn.funler.com/);
+ -  Developed utils for import data to excel;
+ -  Developed of functional APIs;
+ 
+**Onde** Front-end Developer  October,2017 - March, 2018
+ - Developed a new company panel for customers with react & redux;
+ - Developed a storybook for react components;
+ - Resolved design issues through root cause analysis and performed data cleanups;
+ - Documented bug reports, tickets, and any code changes.
+ - Maintained an organized workflow using a project management tool (like GitHub);
+ - Communicated technical issues in an understandable manner to the team;
+
+**XPM** Front-end Developer  October,2017 - March, 2018
+
+ - Builded websites and apps that are responsive and usable;
+ - Bringed mockups to life using HTML, CSS, JavaScript;
+ - Implemented web design and development principles to build stable software.
+ - Developed  internet banking;
+ - Integration and work with third-party services;
+
+## Education
+**BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS**     Aug '10 -  May '14
+*Bachelor of Science in Computer Science*
+
+## English
+*My current level is Pre-intermediate*
