@@ -47,7 +47,6 @@ main {
     max-width: 1024px;
     margin: auto;
     display: flex;
-    height: 100vh;
 }
 
 .main-info {
@@ -71,9 +70,39 @@ main {
 }
 
 p {
-    line-height: auto;
+    font-size: 20px;
+    padding: 15px 0px;
 }
 
 .uppercase {
     text-transform: uppercase;
+}
+
+code {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+.skills-list {
+    padding: 0;
+    list-style: none;
+}
+
+.skills-item {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 10px solid #c4c4c4;
+    color: #999999;
 }

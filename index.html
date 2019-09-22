@@ -34,15 +34,36 @@
         <section class="additional-info">
             <article>
                     <h2 class="additional-info-title uppercase">Skills</h2>
-                    <p>Frontend Developer with 3+ years of experience designing, developing, optimizations of the projects and internal frameworks. 
-                    I started developing in 2015.I work with technologies such as react,redux,nodejs and mongodb.I would like to work in IoT.
-                    Also I want to learn react native and Node-Red(or Cylon.js)</p>
+                    <ul class="skills-list">
+                            <li class="skills-item">JavaScript (jQuery, React, Bootstrap), HTML/CSS, Git, Mocha, Jasmine</li>
+                            <li class="skills-item">Waterfall, Agile, Scrum, Kanban</li>
+                            <li class="skills-item">Have experience  in responsive, mobile-first development</li>
+                            <li class="skills-item">React,Redux,saga,recompose,mobx,material ui,axios,storybook</li>
+                            <li class="skills-item">NodeJS, MongoDB and PostgreSQL</li>
+                            <li class="skills-item">UI Optimizations,Performance,Code review</li>
+                    </ul>
             </article>
             <article>
                     <h2 class="additional-info-title uppercase">Code examples</h2>
-                    <code>Frontend Developer with 3+ years of experience designing, developing, optimizations of the projects and internal frameworks. 
-                    I started developing in 2015.I work with technologies such as react,redux,nodejs and mongodb.I would like to work in IoT.
-                    Also I want to learn react native and Node-Red(or Cylon.js)</code>
+                    <pre>
+                    <code>
+var sum_pairs=function(ints, s){
+    let sortArray = ints.slice().sort((a, b) => a - b);
+    if(sortArray[0]+sortArray[1] > s) return undefined;
+    if(sortArray[sortArray.length-1]+sortArray[sortArray.length-2] < s) return undefined;
+    let step = 1;
+    while(step !== ints.length){
+        for(let i = 0; i < ints.length-1; i++){
+        if(ints[i] + ints[i+step] === s) {
+            return [ints[i],ints[i+step]]
+        }
+        }
+        step++
+    }
+    return undefined;
+    }
+                    </code>
+                    </pre>
             </article>
             <article>
                     <h2 class="additional-info-title uppercase">Experience</h2>
