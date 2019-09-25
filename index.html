@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="./styles/style.css">
+    <meta charset="UTF-8">
+    <title>Frontend Developer Resume</title>
+    <script src="https://kit.fontawesome.com/07169ede5a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <section class="main-info">
+            <h1 class="title">Frontend Developer Resume</h1>
+            <article class="profile">
+                <h2>Maksim Sheka</h2>
+                <img width="180" src="./images/Maksim_Sheka.jpg" alt="avatar"><br>
+                <i>Mid-level Frontend Developer</i>
+            </article>
+            <article class="summary">
+                <h2>SUMMARY</h2>
+                <p>Frontend Developer with 3+ years of experience designing, developing, optimizations of the projects
+                    and internal frameworks.
+                    I started developing in 2015.I work with technologies such as react,redux,nodejs and mongodb.I would
+                    like to work in IoT.
+                    Also I want to learn react native and Node-Red(or Cylon.js)</p>
+            </article>
+            <article class="contact--info">
+                <div class="contact--address">
+                    <h2>Contact Info</h2>
+                    <address>
+                        <p class='contact-item'>
+                            <i class="fa fa-envelope"></i>sheko.maxim@gmail.com</p>
+                        <p>
+                            <i class="fa fa-phone"></i>+375 44 504 53 43;
+                        </p>
+                        <p>
+                            <i class="fa fa-fax"></i>+1-212-9876543
+                        </p>
+                    </address>
+                </div>
+                <div class="contact--social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100001495191697"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://vk.com/maxelf"><i class="fab fa-vk"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/maxim-sheko-61926bb6/"><i
+                                    class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://github.com/ShekoMaxim"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <section class="additional-info">
+            <article>
+                <h2 class="additional-info-title uppercase">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">JavaScript (jQuery, React, Bootstrap), HTML/CSS, Git, Mocha, Jasmine</li>
+                    <li class="skills-item">Waterfall, Agile, Scrum, Kanban</li>
+                    <li class="skills-item">Have experience in responsive, mobile-first development</li>
+                    <li class="skills-item">React,Redux,saga,recompose,mobx,material ui,axios,storybook</li>
+                    <li class="skills-item">NodeJS, MongoDB and PostgreSQL</li>
+                    <li class="skills-item">UI Optimizations,Performance,Code review</li>
+                </ul>
+            </article>
+            <article>
+                <h2 class="additional-info-title uppercase">Code examples</h2>
+                <pre>
+                    <code>
+var sum_pairs=function(ints, s){
+    let sortArray = ints.slice().sort((a, b) => a - b);
+    if(sortArray[0]+sortArray[1] > s) return undefined;
+    if(sortArray[sortArray.length-1]+sortArray[sortArray.length-2] < s) return undefined;
+    let step = 1;
+    while(step !== ints.length){
+        for(let i = 0; i < ints.length-1; i++){
+        if(ints[i] + ints[i+step] === s) {
+            return [ints[i],ints[i+step]]
+        }
+        }
+        step++
+    }
+    return undefined;
+    }
+                    </code>
+                    </pre>
+            </article>
+            <article>
+                <h2 class="additional-info-title uppercase">Experience</h2>
+                <h3><b>Altoros Development</b></h3> <i>Front-end Developer April,2018 - Current</i>
+                <ul>
+                    <li>Executes full-stack website launches specializing in front-end features, browser manipulation,
+                        and cross-browser compatibility.</li>
+                    <li> Coordinated a small team;</li>
+                    <li> Developed the advertising platform :
+                        [https://platform.aqer.tech/](https://platform.aqer.tech/);</li>
+                    <li> Developed a vendor app for iOS/Android with React + Apache Cordova;</li>
+                    <li> Refactored an old-school user interface into a one above industry standard;</li>
+                    <li> Converting code from angular to react [https://learn.funler.com](https://learn.funler.com/);
+                    </li>
+                    <li> Developed utils for import data to excel;</li>
+                    <li> Developed of functional APIs;</li>
+                </ul>
+
+                <h3><b>Onde</b></h3> <i>Front-end Developer October,2017 - March, 2018</i>
+                <ul>
+                    <li>Developed a new company panel for customers with react & redux;</i>
+                    <li> Developed a storybook for react components;</i>
+                    <li> Resolved design issues through root cause analysis and performed data cleanups;</i>
+                    <li> Documented bug reports, tickets, and any code changes.</i>
+                    <li> Maintained an organized workflow using a project management tool (like GitHub);</i>
+                    <li>Communicated technical issues in an understandable manner to the team;</i>
+                </ul>
+                <h3><b>XPM</b></h3> <i> Developer October,2017 - March, 2018</i>
+                <ul>
+                    <li> Builded websites and apps that are responsive and usable;</i>
+                    <li>Bringed mockups to life using HTML, CSS, JavaScript;</i>
+                    <li> Implemented web design and development principles to build stable software.</i>
+                    <li>Developed internet banking;</i>
+                    <li>Integration and work with third-party services;</i>
+                </ul>
+            </article>
+            <article>
+                <h2 class="additional-info-title uppercase">Education</h2>
+                <div class="education-item">
+                    <p class="university">BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS</p>
+                    <p class="graduation">
+                        <span class="education-data"><b>'10 - May '14</b></span>
+                        <span class="education-degree"> <i>Bachelor of Science in Computer Science</i></span>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <h2 class="additional-info-title uppercase">English</h2>
+                <p><i class="english-lvl">My current level is Pre-intermediate</i></p>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
